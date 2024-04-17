@@ -1,13 +1,8 @@
 from pessoa import Pessoa
 
 
-class Professor:
-    def __init__ (self, nome, matricula, endereco):
-        self.nome = nome
-        self._matricula = matricula
-        self._endereco = endereco
-
-        professor1 = Professor()
-
+class Professor(Pessoa):
     
-    
+    def __init__ (self, nome, endereco, formacao):
+        super().__init__(self, nome, endereco)
+        self.formacao = formacao

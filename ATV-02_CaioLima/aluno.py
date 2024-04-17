@@ -2,6 +2,6 @@ from pessoa import Pessoa
 
 class Aluno(Pessoa):
     
-    def aluno(self):
-        aluno1 = aluno1.Aluno(Pessoa("Pedro", 123, "Praça"))
-        print (f"{aluno1}")
+    def __init__ (self, nome, endereco, matricula):
+        super().__init__(self, nome, endereco)
+        self.matricula = matricula 
