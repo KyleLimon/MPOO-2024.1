@@ -1,5 +1,10 @@
+from professor import *
+
 class Disciplina:
-    def __init__ (self, disciplina, codDisc):
-        self.disciplina = disciplina
-        self.codDisc = codDisc
+    def __init__ (self, dscip):
+        self.professor = []
+        self.dscip = dscip
+        
+
+    def addProfessor (self):
         

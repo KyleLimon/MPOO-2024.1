@@ -1,5 +1,5 @@
-from pessoa import Pessoa
-
+from aluno import *
+from professor import *
 
 class Cadastrar:
     def __init__(self):
