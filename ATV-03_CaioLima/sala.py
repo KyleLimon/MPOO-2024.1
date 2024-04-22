@@ -1,5 +1,7 @@
+from aluno import *
 
 
+class Sala(Aluno):
 
-class Sala():
-    
+    def alunoSala(self, aluno):
+        
